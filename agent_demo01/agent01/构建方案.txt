@@ -1,0 +1,13 @@
+d:\backend\agent_learn\agent_demo01/
+├── main.py              # 主入口，包含智能体执行循环
+├── prompts.py           # 指令模板（系统提示词）
+├── llm/                 # 大语言模型模块
+│   ├── __init__.py
+│   └── client.py        # OpenAI兼容的LLM客户端
+├── tools/               # 工具模块
+│   ├── __init__.py
+│   ├── weather.py       # 天气查询工具
+│   └── attraction.py    # 景点推荐工具
+├── .env                 # 环境配置
+├── requirements.txt
+└── 构建方案.txt
